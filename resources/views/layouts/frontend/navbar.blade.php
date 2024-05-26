@@ -1,54 +1,6 @@
  <!--// Header \\-->
  <header id="sportsmagazine-header" class="sportsmagazine-header-one">
 
-<<<<<<< HEAD
-     <!--// TopStrip \\-->
-     <div class="sportsmagazine-topstrip">
-         <div class="container">
-             <div class="row">
-                 <aside class="col-md-4">
-                     <ul class="sportsmagazine-social-network">
-                         <li><a href="https://www.facebook.com/" class="sportsmagazine-colorhover fa fa-facebook-official"></a></li>
-                         <li><a href="https://twitter.com/login" class="sportsmagazine-colorhover fa fa-twitter-square"></a></li>
-                         <li><a href="https://pk.linkedin.com/" class="sportsmagazine-colorhover fa fa-linkedin-square"></a></li>
-                         <li><a href="https://plus.google.com/" class="sportsmagazine-colorhover fa fa-google-plus-square"></a></li>
-                     </ul>
-                 </aside>
-                 <aside class="col-md-8">
-                     <ul class="sportsmagazine-user-section">
-                         <li><i class="fa fa-globe"></i> <a href="404.html">Support</a></li>
-                         <li><i class="fa fa-dollar"></i> <a href="404.html">Currency : USD</a></li>
-                         <li><i class="fa fa-shopping-cart"></i> <a href="#" class="sportsmagazine-open-cart">Cart (0)</a>
-                             <div class="sportsmagazine-cart-box">
-                                 <h2>You have 2 items in the cart</h2>
-                                 <ul>
-                                     <li>
-                                         <figure>
-                                             <a href="checkout.html"><img src="{{asset('frontend/extra-images/cartbox-1.png')}}" alt=""></a>
-                                         </figure>
-                                         <div class="sportsmagazine-cartbox-text">
-                                             <h6><a href="checkout.html">Key Management Model The 60+ Models</a></h6>
-                                             <div class="sportsmagazine-rating"><span class="sportsmagazine-rating-box" style="width:80%"></span></div>
-                                             <span class="sportsmagazine-cartbox-price sportsmagazine-color">$35.99 <small>$43.00</small></span>
-                                         </div>
-                                     </li>
-                                     <li>
-                                         <figure>
-                                             <a href="checkout.html"><img src="{{asset('frontend/extra-images/cartbox-2.png')}}" alt=""></a>
-                                         </figure>
-                                         <div class="sportsmagazine-cartbox-text">
-                                             <h6><a href="checkout.html">Pyramid Principle: Logic Writing &amp; Thinking</a></h6>
-                                             <div class="sportsmagazine-rating"><span class="sportsmagazine-rating-box" style="width:100%"></span></div>
-                                             <span class="sportsmagazine-cartbox-price sportsmagazine-color">$21.00</span>
-                                         </div>
-                                     </li>
-                                 </ul>
-                                 <h5>Subtotal <span class="sportsmagazine-color">$1343</span></h5>
-                                 <div class="sportsmagazine-cart-link"><a href="checkout.html" class="sportsmagazine-cartbox-btn sportsmagazine-bgcolorhover"><i class="flaticon-tool"></i> Go to Checkout</a></div>
-                             </div>
-                         </li>
-                         @if (Route::has('login'))
-=======
             <!--// TopStrip \\-->
             <div class="sportsmagazine-topstrip">
                 <div class="container">
@@ -95,7 +47,6 @@
                                     </div>
                                 </li>
                                     @if (Route::has('login'))
->>>>>>> 7a2162b29d098bbd7bf98b23591207a695faac15
 
                          @auth
                          <li class="nav-item dropdown">
@@ -128,39 +79,6 @@
                          @endif
                          @endauth
 
-<<<<<<< HEAD
-                         @endif
-                         <!-- <li><i class="fa fa-user"></i> <a href="#" data-toggle="modal" data-target="#loginModal">Login</a></li> -->
-                         <!-- <li><i class="fa fa-sign-in"></i> <a href="#" data-toggle="modal" data-target="#signupModal">Sign Up</a></li> -->
-
-                     </ul>
-                 </aside>
-             </div>
-         </div>
-     </div>
-     <!--// TopStrip \\-->
-
-     <!--// MainSection \\-->
-     <div class="sportsmagazine-main-header">
-         <div class="container">
-             <div class="row">
-                 <aside class="col-md-2"><a href="index-2.html" class="sportsmagazine-logo"><img src="{{asset('frontend/images/logo-1.png')}}" alt=""></a></aside>
-                 <div class="col-md-10">
-                     <div class="sportsmagazine-right-section">
-                         <nav class="navbar navbar-default">
-                             <div class="navbar-header">
-                                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1" aria-expanded="true">
-                                     <span class="sr-only">Toggle navigation</span>
-                                     <span class="icon-bar"></span>
-                                     <span class="icon-bar"></span>
-                                     <span class="icon-bar"></span>
-                                 </button>
-                             </div>
-                             <div class="collapse navbar-collapse" id="navbar-collapse-1">
-                                 <ul class="nav navbar-nav">
-                                     <li class="active"><a href="#">Home</a>
-                                         <!-- <ul class="sportsmagazine-dropdown-menu">
-=======
             @endif
                                 <!-- <li><i class="fa fa-user"></i> <a href="#" data-toggle="modal" data-target="#loginModal">Login</a></li> -->
                                 <!-- <li><i class="fa fa-sign-in"></i> <a href="#" data-toggle="modal" data-target="#signupModal">Sign Up</a></li> -->
@@ -201,20 +119,13 @@
                                         <ul class="nav navbar-nav">
                                             <li class="active"><a href="#">Home</a>
                                                 <!-- <ul class="sportsmagazine-dropdown-menu">
->>>>>>> 7a2162b29d098bbd7bf98b23591207a695faac15
                                                     <li><a href="index-2.html">Home One</a></li>
                                                     <li><a href="index-two.html">Home Two</a></li>
 
                                                 </ul> -->
-<<<<<<< HEAD
-                                     </li>
-                                     <li class="sportsmagazine-megamenu-li"><a href="#">FEATURES</a>
-                                         <!-- <ul class="sportsmagazine-megamenu">
-=======
                                             </li>
                                             <li class="sportsmagazine-megamenu-li"><a href="#">FEATURES</a>
                                                 <!-- <ul class="sportsmagazine-megamenu">
->>>>>>> 7a2162b29d098bbd7bf98b23591207a695faac15
                                                     <li class="row">
                                                         <div class="col-md-2">
                                                             <h4>Link 1</h4>
@@ -256,15 +167,9 @@
                                                         </div>
                                                     </li>
                                                 </ul> -->
-<<<<<<< HEAD
-                                     </li>
-                                     <li><a href="#">PLAYERS</a>
-                                         <!-- <ul class="sportsmagazine-dropdown-menu">
-=======
                                             </li>
                                             <li><a href="#">PLAYERS</a>
                                                 <!-- <ul class="sportsmagazine-dropdown-menu">
->>>>>>> 7a2162b29d098bbd7bf98b23591207a695faac15
                                                     <li><a href="player-grid.html">Player Grid</a>
                                                         <ul class="sportsmagazine-dropdown-menu">
                                                             <li><a href="player-grid.html">Player Grid W/O/S</a></li>
@@ -290,15 +195,9 @@
                                                         </ul>
                                                     </li>
                                                 </ul> -->
-<<<<<<< HEAD
-                                     </li>
-                                     <li><a href="#">OUR NEWS</a>
-                                         <!-- <ul class="sportsmagazine-dropdown-menu">
-=======
                                             </li>
                                             <li><a href="#">OUR NEWS</a>
                                                 <!-- <ul class="sportsmagazine-dropdown-menu">
->>>>>>> 7a2162b29d098bbd7bf98b23591207a695faac15
                                                     <li><a href="blog-grid.html">Blog Grid</a>
                                                         <ul class="sportsmagazine-dropdown-menu">
                                                             <li><a href="blog-grid.html">Blog Grid W/O/S</a></li>
@@ -323,15 +222,9 @@
                                                         </ul>
                                                     </li>
                                                 </ul> -->
-<<<<<<< HEAD
-                                     </li>
-                                     <li><a href="#">OUR SHOP</a>
-                                         <!-- <ul class="sportsmagazine-dropdown-menu">
-=======
                                             </li>
                                             <li><a href="#">OUR SHOP</a>
                                                 <!-- <ul class="sportsmagazine-dropdown-menu">
->>>>>>> 7a2162b29d098bbd7bf98b23591207a695faac15
                                                     <li><a href="shop-grid.html">Shop Grid</a>
                                                         <ul class="sportsmagazine-dropdown-menu">
                                                             <li><a href="shop-grid.html">Shop Grid W/O/S</a></li>
@@ -352,15 +245,9 @@
                                                         </ul>
                                                     </li>
                                                 </ul> -->
-<<<<<<< HEAD
-                                     </li>
-                                     <li class="sportsmagazine-megamenu-li"><a href="#">Contact us</a>
-                                         <!-- <ul class="sportsmagazine-megamenu">
-=======
                                             </li>
                                             <li class="sportsmagazine-megamenu-li"><a href="#">Contact us</a>
                                                 <!-- <ul class="sportsmagazine-megamenu">
->>>>>>> 7a2162b29d098bbd7bf98b23591207a695faac15
                                                     <li class="row">
                                                         <div class="col-md-2">
                                                             <h4>Links 1</h4>
@@ -387,19 +274,6 @@
                                                         </div>
                                                     </li>
                                                 </ul> -->
-<<<<<<< HEAD
-                                     </li>
-                                 </ul>
-                             </div>
-                         </nav>
-                         <a data-toggle="modal" data-target="#searchModal" href="#" class="sportsmagazine-search-btn sportsmagazine-colorhover"><i class="fa fa-search"></i></a>
-                     </div>
-                 </div>
-             </div>
-         </div>
-     </div>
-     <!--// MainSection \\-->
-=======
                                             </li>
                                         </ul>
                                     </div>
@@ -411,7 +285,6 @@
                 </div>
             </div>
             <!--// MainSection \\-->
->>>>>>> 7a2162b29d098bbd7bf98b23591207a695faac15
 
  </header>
  <!--// Header \\-->

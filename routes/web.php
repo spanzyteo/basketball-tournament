@@ -28,7 +28,7 @@ use App\Http\Controllers\Admin\RefereeController;
 */
 
 Route::get('/', function () {
-    return view('frontend.index');
+    return view('/admin/index');
 });
 Route::middleware(['auth', 'IsAdmin'])->group(function () {
     Route::get('admin/index', [App\Http\Controllers\Admin\AdminController::class, 'admin'])->name('admin/index');
